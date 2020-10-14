@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple Music</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+
+    <style type="text/css">
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            font-size: 14px;
+            background: #fafafa;
+        }
+
+        .container {
+            width: 100%;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <a href="/index.html" title="Apple Music">
+                <img src="assets/logo.svg" alt="Apple Music" width="270" />
+            </a>
+        </header>
+
+        <section>
+            <h1>
+                <em>Nossos produtos</em>
+            </h1>
+
+            <ul>
+                <li>Criar playlists</li>
+                <li>Baixar músicas</li>
+                <li>Flow de músicas</li>
+                <li>Ouvir músicas</li>
+                <li>Seguir artistas favoritos</li>
+            </ul>
+        </section>
+
+        <section>
+            <h1>
+                <em>Nosso endereço</em>
+            </h1>
+
+            <p>
+                Rua Jeripagua, 420 - Bairro Santa Maria <br />
+                Brumado, BA - Brasil <br />
+                Tel: (91) 4321-8765 <br />
+                <br />
+
+                <a href="https://www.apple.com/br/apple-music/" target="_blank" title="Apple Music">
+                    apple.com/br/apple-music
+                </a>
+            </p>
+        </section>
+
+        <section>
+            <h1>
+                <em>Envie uma mensagem</em>
+            </h1>
+
+            <form action="/index.html" method="GET">
+                <table>
+                    <tr>
+                        <td><label for="name"><strong>Nome:</strong></label></td>
+                        <td><input type="text" name="name" id="name" /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email"><strong>E-mail:</strong></label></td>
+                        <td><input type="email" name="email" id="email" /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="subject"><strong>Assunto:</strong></label></td>
+                        <td><input type="text" name="subject" id="subject" /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="phone"><strong>Telefone:</strong></label></td>
+                        <td><input type="tel" name="phone" id="phone" /></td>
+                    </tr>
+                    <tr>
+                        <td><label for="message"><strong>Mensagem:</strong></label></td>
+                        <td><textarea name="message" id="message" cols="22" rows="10"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button type="submit">Enviar</button>
+                            <button type="reset">Limpar</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </section>
+    </div>
+</body>
+
+</html>
