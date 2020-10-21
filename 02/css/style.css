@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2 {
+  font-weight: 500;
+}
+
+body {
+  background: rgb(24,25,26);
+  background: linear-gradient(30deg, rgba(24,25,26,1) 0%, rgba(10,10,11,1) 100%);
+  color: #fafafa;
+  font-size: 14px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  color: #f1f1f1;
+}
+
+.card {
+  width: 450px;
+  height: 240px;
+  background: rgb(211,16,39);
+  background: linear-gradient(30deg, rgba(211,16,39,1) 0%, rgba(234,56,77,1) 100%);
+  /* background: rgb(18,255,247);
+  background: linear-gradient(30deg, rgba(18,255,247,1) 0%, rgba(177,255,171,1) 100%); */
+  /* background: rgb(180,51,255);
+  background: linear-gradient(30deg, rgba(180,51,255,1) 0%, rgba(40,74,255,1) 100%); */
+  /* background: rgb(247,147,30);
+  background: linear-gradient(30deg, rgba(247,147,30,1) 0%, rgba(252,189,56,1) 100%); */
+  background: rgb(45,199,237);
+  background: linear-gradient(30deg, rgba(45,199,237,1) 0%, rgba(83,139,240,1) 100%);
+  border-radius: 2px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+
+  display: flex;
+  flex-direction: row;
+}
+
+.qrcode {
+  background: #090909;
+  padding: 0 5px 20px;
+  display: flex;
+  align-items: flex-end;
+  margin: 0 30px;
+}
+.qrcode img {
+  width: 65px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 0;
+}
+
+.info h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.info h2 {
+  font-size: 16px;
+}
+
+.info img {
+  width: 100px;
+  margin-bottom: 40px;
+  margin-top: 5px;
+}
+
+@media screen and (max-width:450px){
+  .card {
+    width: 98%;
+  }
+}
